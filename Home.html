@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Development Test</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="home.css">
+  <script src="script.js" defer></script>
+</head>    
+<body>
+
+  <div class="topnav">
+    <a href="">Logo</a>
+    
+    <div class="topnav-right">
+      <a href="#home">Home</a>
+      <a href="#ourproducts">Our Products</a>
+      <a href="#search">About Us</a>
+      <a href="#about">Help</a>
+      <a href="#search">News</a>
+      <a href="#about">Contact</a>
+      <div class="logo-image">
+        <img src="/images/profile.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- 
+  <!--image slider start-->
+  <div class="slider">
+    <div class="slides">
+      <!--radio buttons start-->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!--radio buttons end-->
+      <!--slide images start-->
+      <div class="slide first">
+        <img src="1.jpg" alt="">
+        <h2><p>Lorem ipsum dolor sit amet et delectus<br>
+          accommodare his consul copiosae </h2></p>
+          <br>
+          <br>
+          <h5><p>Lorem ipsum dolor sit amet et delectus<br>
+            accommodare his consul copiosae </h5></p>
+        <br>
+        <br>
+            <div class="ex2">
+        <h2> <center>
+          Read More
+        </center> 
+        </h2>
+        
+            </div>
+
+      </div>
+      <div class="slide">
+        <img src="2.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="3.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="4.jpg" alt="">
+      </div>
+      <!--slide images end-->
+      <!--automatic navigation start-->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+      <!--automatic navigation end-->
+    </div>
+    <!--manual navigation start-->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+    <!--manual navigation end-->
+  </div>
+  <!--image slider end-->
+<br>
+
+<div class="container">
+<h2> <center> Our Products That Offer You </center></h2>
+<br>
+<br>
+
+<div class="products-container">
+
+  <div class="product" data-name="p-1">
+     <img src="images/1.png" alt="">
+     <h3>Blender</h3>
+  </div>
+
+  <div class="product" data-name="p-2">
+     <img src="images/2.png" alt="">
+     <h3>Hot Pan</h3>
+  </div>
+
+  <div class="product" data-name="p-3">
+     <img src="images/3.png" alt="">
+     <h3>Kettle</h3>
+  </div>
+
+  <div class="product" data-name="p-4">
+     <img src="images/4.png" alt="">
+     <h3>Microwave</h3>
+  </div>
+
+  <div class="product" data-name="p-5">
+     <img src="images/5.png" alt="">
+     <h3>broccoli</h3>
+  </div>
+
+  <div class="product" data-name="p-6">
+     <img src="images/6.png" alt="">
+     <h3>Rice Cooker</h3>
+  </div>
+
+</div>
+
+</div>
+
+<div class="products-preview">
+
+<div class="preview" data-target="p-1">
+  <i class="fas fa-times"></i>
+  <img src="images/1.png" alt="">
+  <h3>organic strawberries</h3>
+  <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star-half-alt"></i>
+     <span>( 250 )</span>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+  <div class="buttons">
+     <a href="#" class="buy">buy now</a>
+     <a href="#" class="cart">add to cart</a>
+  </div>
+</div>
+
+<div class="preview" data-target="p-2">
+  <i class="fas fa-times"></i>
+  <img src="images/2.png" alt="">
+  <h3>organic onions</h3>
+  <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star-half-alt"></i>
+     <span>( 250 )</span>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+
+  <div class="buttons">
+     <a href="#" class="buy">buy now</a>
+     <a href="#" class="cart">add to cart</a>
+  </div>
+</div>
+
+<div class="preview" data-target="p-3">
+  <i class="fas fa-times"></i>
+  <img src="images/3.png" alt="">
+  <h3>organic tomatoes</h3>
+  <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star-half-alt"></i>
+     <span>( 250 )</span>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+
+  <div class="buttons">
+     <a href="#" class="buy">buy now</a>
+     <a href="#" class="cart">add to cart</a>
+  </div>
+</div>
+
+<div class="preview" data-target="p-4">
+  <i class="fas fa-times"></i>
+  <img src="images/4.png" alt="">
+  <h3>organic brinjal</h3>
+  <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star-half-alt"></i>
+     <span>( 250 )</span>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+
+  <div class="buttons">
+     <a href="#" class="buy">buy now</a>
+     <a href="#" class="cart">add to cart</a>
+  </div>
+</div>
+
+<div class="preview" data-target="p-5">
+  <i class="fas fa-times"></i>
+  <img src="images/5.png" alt="">
+  <h3>organic broccoli</h3>
+  <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star-half-alt"></i>
+     <span>( 250 )</span>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+
+  <div class="buttons">
+     <a href="#" class="buy">buy now</a>
+     <a href="#" class="cart">add to cart</a>
+  </div>
+</div>
+
+<div class="preview" data-target="p-6">
+  <i class="fas fa-times"></i>
+  <img src="images/6.png" alt="">
+  <h3>organic potatoes</h3>
+  <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star-half-alt"></i>
+     <span>( 250 )</span>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+
+  <div class="buttons">
+     <a href="#" class="buy">buy now</a>
+     <a href="#" class="cart">add to cart</a>
+  </div>
+</div>
+
+</div>
+
+<br>
+<br>
+
+
+<div class="new">
+  <div class ="pic4">
+
+    <img src="images/kitchen reso.jpg" width="1021" height="389"> 
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+<h2><p>Lorem ipsum dolor sit amet et delectus<br>
+  accommodare his consul copiosae </h2></p>
+  <br>
+  <br>
+  <h5><p>Lorem ipsum dolor sit amet et delectus<br>
+    accommodare his consul copiosae </h5></p>
+<br>
+<br>
+    <div class="ex2">
+<h2> <center>
+  Read More
+</center> 
+</h2>
+</div>
+
+    
+</div>
+
+<br>
+<br>
+<br>
+
+<h2>Our Products That Offer You</h2>
+<br>
+<br>
+<div class="container-fluid">
+<div class="row">
+  <div class="col-3"><div class="responsive">
+    <div class="gallery">
+        <img src="images/news/5.jpeg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">
+       <h4> News 01</h4>
+       <h6> August 8 2019 </h6>
+        <h6>Lorem Ipsum dolor sit amet et
+          delectus</h6>
+      </div>
+    </div>
+  </div></div>
+  <div class="col-3">
+    <div class="responsive">
+      <div class="gallery">
+          <img src="images/news/2.jpeg" alt="Forest" width="1000" height="500">
+        </a>
+        <div class="desc">
+         <h4> News 01</h4>
+         <h6> August 8 2019 </h6>
+         <h6>Lorem Ipsum dolor sit amet et
+           delectus</h6>
+        </div>
+      </div>
+    </div></div>
+  <div class="col-3"><div class="responsive">
+    <div class="gallery">
+        <img src="images/news/3.jpeg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc">
+        <h4> News 01</h4>
+        <h6> August 8 2019 </h6>
+        <h6>Lorem Ipsum dolor sit amet et
+          delectus</h6>
+      </div>
+    </div>
+  </div></div>
+  <div class="col-3"><div class="responsive">
+    <div class="gallery">
+        <img src="images/news/4.jpeg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">
+        <h4> News 01</h4>
+        <h6> August 8 2019 </h6>
+        <h6>Lorem Ipsum dolor sit amet et
+          delectus</h6>
+      </div>
+    </div>
+  </div></div>
+
+</div>
+</div>
+
+
+<footer class="bg-light text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h3 class="text-uppercase fw-bold mb-4">PRODUCTS & SERVICES</h3>
+          <p>
+            <a href="#!" class="text-dark"><h4>Product 01</h4></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark"><h4>Product 02</h4></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark"><h4>Product 03</h4></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark"><h4>Product 04</h4></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark"><h4>Product 05</h4></a>
+          </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h3 class="text-uppercase fw-bold mb-4">EXPLORE</h3>
+          <p>
+            <a href="#!" class="text-dark"><h4>About Us</h4></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark"><h4>Awards</h4></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark"><h4>Board of Directors</h4></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark"><h4>Team</h4></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark"><h4>Careers</h4></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark"><h4>CSR</h4></a>
+          </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h5 class="text-uppercase fw-bold mb-4"></h5>
+          <p>
+            <a href="#!" class="text-dark"><h4>News</h4></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark"><h4>Sitemap</h4></a>
+          </p>
+          <p>
+            <a href="#!" class="text-dark"><h4>Contact Us</h4></a>
+          </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">SUBSCRIBE TO OUR NEWSLETTER</h5>
+
+        <footer class="bg-light text-center">
+        <div class="container p-4 pb-0">
+         <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form5Example27" class="form-control" />
+              <label class="form-label" for="form5Example27">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary mb-4">
+              JOIN
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+</footer>
+
+
+
+        <br>
+        <h2> JOIN OUR COMMUNITY</h2>
+
+        <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-left p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Copyright @ 2019 Konekt Holdings. All Rights Reserved.
+    <div class="konekt">
+    <a class="text-dark" href="https://www.konekt.lk/">Web Design & Development by KONEKT</a>
+  </div>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+</body>
+</html>
